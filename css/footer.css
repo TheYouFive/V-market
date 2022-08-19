@@ -1,0 +1,46 @@
+footer {
+  margin-top: 150px;
+  background-color: #c9ccd5;
+  padding: 20px 0;
+  color: #000000;
+}
+
+footer span,
+footer a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer-contents-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-contents-bottom {
+  text-align: center;
+}
+
+.cs-center span:nth-child(2),
+.delivery span:nth-child(2),
+.bank-information span:nth-child(2) {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.menu a {
+  margin-top: 15px;
+}

@@ -1,0 +1,9 @@
+.new-cap span:nth-child(2) {
+  margin-top: 39.19px;
+}
+
+.new-cap span:nth-child(3) {
+  color: #dc143c;
+  font-weight: 500;
+  margin: 0;
+}

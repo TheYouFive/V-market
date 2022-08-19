@@ -1,0 +1,11 @@
+.best-cap span:nth-child(2),
+.best-belt span:nth-child(2) {
+  margin-top: 39.19px;
+}
+
+.best-cap span:nth-child(3),
+.best-belt span:nth-child(3) {
+  color: #dc143c;
+  font-weight: 500;
+  margin: 0;
+}

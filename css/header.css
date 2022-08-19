@@ -1,0 +1,174 @@
+header {
+  background-color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 50px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: crimson;
+}
+
+.gnb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gnb ul {
+  display: flex;
+}
+
+.gnb ul li a {
+  color: #3d3d3d;
+}
+
+.gnb ul li a:hover {
+  color: #757575;
+}
+
+.lnb,
+.lnb-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lnb {
+  position: relative;
+}
+
+.lnb li {
+  margin: 0 20px;
+}
+
+.lnb-sub li {
+  margin: 0;
+}
+
+.logo a span {
+  color: #000000;
+}
+
+.lnb-sub {
+  position: absolute;
+  top: 20px;
+  transition: 0.3s;
+  background-color: #ffffff;
+  font-size: 14px;
+  width: 100px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  padding: 10px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 3%);
+  border-radius: 0 0 5px 5px;
+}
+
+.lnb:hover .lnb-sub,
+.lnb-sub:hover .lnb-sub {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.lnb-sub li {
+  margin: 5px 0;
+}
+
+.lnb-menu {
+  position: relative;
+}
+
+.lnb-menu::after {
+  position: absolute;
+  z-index: 99;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: -5px;
+  left: 50%;
+  transition: 0.3s;
+}
+
+.lnb:hover .lnb-menu::after {
+  width: 100%;
+  left: 0;
+}
+
+.header-util {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+}
+
+.header-util ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header-util ul li {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+.header-util ul li a:hover {
+  color: #4d4d4d;
+}
+
+.header-util ul i {
+  font-size: 18px;
+}
+
+.header-util ul li:last-child {
+  margin-right: 0;
+}
+
+.search {
+  position: relative;
+  width: 170px;
+  height: 25px;
+  top: 0;
+  right: 0;
+}
+
+.search input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.search i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search i:hover {
+  color: #8b8b8b;
+}
