@@ -1,8 +1,8 @@
 .main {
   display: flex;
   width: 1800px;
-  margin: 20px auto 0 auto;
-  height: calc(100vh - 130.25px);
+  margin: 110.25px auto;
+  height: calc(100vh - 110.25px);
 }
 
 .main-box {

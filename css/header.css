@@ -1,5 +1,14 @@
 header {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  left: 0;
   background-color: #ffffff;
+}
+
+header.shadow {
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
 }
 
 .nav {
@@ -7,8 +16,8 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 1800px;
+  height: 60px;
   margin: 0 auto;
-  margin-top: 20px;
 }
 
 .logo {
@@ -117,6 +126,12 @@ header {
   height: 50px;
   margin: 0 auto;
   border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+  transition: 0.3s;
+}
+
+.header-util.hide {
+  height: 0;
+  overflow: hidden;
 }
 
 .header-util ul {
